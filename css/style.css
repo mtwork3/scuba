@@ -140,9 +140,9 @@ main h2 {
 }
 
 main h2::before {
-  content:"";
+  content: "";
   border-left: 7px solid #00A0E9;
-  margin:0 10px;
+  margin: 0 10px;
 }
 
 /* 新着情報 */
@@ -154,7 +154,8 @@ main article:nth-child(4) {
   margin-bottom: 26px;
 }
 
-main article p:nth-child(1) {
+
+h4 {
   font: normal normal normal 16px/32px Meiryo;
   color: #AAAAAA;
 }
@@ -180,17 +181,17 @@ main article p:nth-child(2) {
 }
 
 .btn a::after {
-  content:"\03e";
+  content: "\03e";
   margin-left: 20px;
 }
 
 /* 人気のコース */
-#course > p {
+#course>p {
   font: normal normal normal 16px/28px Meiryo;
   margin-bottom: 20px;
 }
 
-#course > ul {
+#course>ul {
   margin-bottom: 40px;
   gap: 18px;
 }
@@ -288,6 +289,7 @@ aside h2::before {
   border-left: 7px solid #00A0E9;
   margin-right: 10px;
 }
+
 aside section:nth-child(3) img {
   margin-bottom: 10px;
 }
@@ -301,11 +303,13 @@ aside section:nth-child(4) {
   margin-bottom: 30px;
 }
 
-aside article p:nth-child(1) {
+
+h4 {
   font: normal normal normal 12px/24px Meiryo;
   color: #00A0E9;
   margin-bottom: 5px;
 }
+
 
 aside article p:nth-child(2) {
   font: normal normal bold 16px/28px Meiryo;
@@ -361,6 +365,3 @@ footer div[class="flex"] {
 .footer-tel {
   max-width: 300px;
 }
-
-
-
