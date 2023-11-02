@@ -155,7 +155,7 @@ main article:nth-child(4) {
 }
 
 
-h4 {
+main h4 {
   font: normal normal normal 16px/32px Meiryo;
   color: #AAAAAA;
 }
@@ -304,7 +304,7 @@ aside section:nth-child(4) {
 }
 
 
-h4 {
+aside h4 {
   font: normal normal normal 12px/24px Meiryo;
   color: #00A0E9;
   margin-bottom: 5px;
